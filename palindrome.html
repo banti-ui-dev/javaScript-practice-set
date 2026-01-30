@@ -9,14 +9,23 @@
     
 </body>
 <script>    
-    function isPalindrome(str) {
-        str = str.toLowerCase();
-        let reversed = str.split('').reverse().join('');
-        return str === reversed
-        // "madam" → true
-        // "hello" → false
+    const str = ["Banti","Kumar"]
+    const revised = []
+    for(let i = str.length-1; i>=0; i-- ){
+        revised.push(str[i])
     }
-    const str = "maDam";
-    console.log(isPalindrome(str));  
+
+    console.log(revised.join(''))
+
+
+    // function isPalindrome(str) {
+    //     str = str.toLowerCase();
+    //     let reversed = str.split('').reverse().join('');
+    //     return str === reversed
+    //     // "madam" → true
+    //     // "hello" → false
+    // }
+    // const str = "maDam";
+    // console.log(isPalindrome(str));  
 </script>
 </html>

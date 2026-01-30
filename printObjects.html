@@ -36,16 +36,28 @@
         {name : "Sumit" , age: 26}
     ]
     let customData = [];
-    for(let i=0; i< str.length; i++){
-        if(str[i].age > 25){
-            customData.push(str[i]);
-        }else{
-            
+    for(let i=0; i<str.length; i++){
+        if(str[i].age>26){
+            customData.push(str[i])
         }
+        else{}
     }
     console.log(customData)
-    // let customData = str.filter(user => user.age>25)
-    customData.map(item => {console.log(`${item.name} : ${item.age}`)})
+
+
+
+
+    // let customData = [];
+    // for(let i=0; i< str.length; i++){
+    //     if(str[i].age > 25){
+    //         customData.push(str[i]);
+    //     }else{
+            
+    //     }
+    // }
+    // console.log(customData)
+    // // let customData = str.filter(user => user.age>25)
+    // customData.map(item => {console.log(`${item.name} : ${item.age}`)})
     
 </script>
 </html>
